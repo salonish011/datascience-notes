@@ -41,9 +41,38 @@ So, expected value is used in trying to predict the future events.
 --> The highest bars are of highest probability.
 
 #CHARACTERSTICS OF PROBABILITIES AND EVENTS.
+
 1. COMPLEMENTS= It is everything the event is not.It helps in completing the rest of the sample space.
  Can be calculated as = sum of the probabilities of different events should be 1.
  i.e P(A)+P(B)=1 , 1 means absolute certainity.
  --> If the sum of probabilities is less than 1 P<1 , then it means the event is not guranteed to occur.There must be some part of sample space that we have not counted yet.
- --> If the sum is >1 then it means ypu are double counting the outcome
+ --> If the sum is >1 , then it means you are double counting the outcome.
+
+ So,all events have compliments. They are denoted by  A' and also the complement of the complement is the event itself and denoted as (A')'=A.
+
+
+ Example- A= rolling an even number.
+ A'= not rolling an even number.
+
+ The probability of the complement is counted as P(A')=1-P(A)
+
+ Example- Consider rolling a die then 
+ Getting the numbers 1,2,4,5,6.
+ Their sum is 
+ p(A)= P(1)+P(2)+P(4)+P(5)+P(6)= 1/6+1/6+1/6+1/6+1/6=5/6
+
+Another way of describing getting 1,2,4,5,6 is not getting a three.
+ P(B)=1-P(B')
+We know , P(B')=1/6
+P(B)=1-1/6 = 5/6
+ Therefore, P(A)=P(B)
+
+
+
+
+
+
+
+
+
 
