@@ -44,8 +44,10 @@ So, expected value is used in trying to predict the future events.
 
 1. COMPLEMENTS= It is everything the event is not.It helps in completing the rest of the sample space.
  Can be calculated as = sum of the probabilities of different events should be 1.
+
  i.e P(A)+P(B)=1 , 1 means absolute certainity.
  --> If the sum of probabilities is less than 1 P<1 , then it means the event is not guranteed to occur.There must be some part of sample space that we have not counted yet.
+
  --> If the sum is >1 , then it means you are double counting the outcome.
 
  So,all events have compliments. They are denoted by  A' and also the complement of the complement is the event itself and denoted as (A')'=A.
@@ -63,9 +65,32 @@ So, expected value is used in trying to predict the future events.
 
 Another way of describing getting 1,2,4,5,6 is not getting a three.
  P(B)=1-P(B')
-We know , P(B')=1/6
-P(B)=1-1/6 = 5/6
- Therefore, P(A)=P(B)
+We know ,     P(B')=1/6
+   P(B)=1-1/6 = 5/6
+   Therefore, P(A)=P(B)
+
+
+ # COMBINATORICS  
+
+ It deals  with the combinations of objects from a specific finite set.
+ It can be applied  to form combinations.
+ Restrictions for these are -
+ Repitition 
+ Order or different criterion.
+
+ The combintorics have three integral parts , which are 
+ --> Permutations.
+ --> Variations.
+ --> Combinations.
+
+1. PERMUTATIONS -The number of possible ways we can arrange a set of elements.
+ These elements can be digits , objects and even people.
+
+ 
+. 
+
+
+
 
 
 
