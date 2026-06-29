@@ -86,6 +86,56 @@ We know ,     P(B')=1/6
 1. PERMUTATIONS -The number of possible ways we can arrange a set of elements.
  These elements can be digits , objects and even people.
 
+ Intution-behind computing the total number of permutations for a set of n many elements.
+     P<sub>n</sub>= nx(n-1)x(n-2)x....x1=n!
+
+ #FACTORIALS-
+   n!= The product of the natural numbers from 1 to n.
+   means n!=1x2x3x...xn 
+   example- 3!=1x2x3=6
+
+  #IMPORTANT PROPERTIES-
+ --> Negative numbers don't have a factorial
+ -->0!=1
+ -->For any natural nuber n , n!=(n-1)!xn
+ similarly, (n+1)!=n!x(n+1)
+ example - n=6
+ 6!=5!x6
+ 7!=6!x7
+ could be expanded to express- (n+k)!&(n-k)!
+ --> (n+k)!=n!x(n+1)x(n+2)x..x(n+k)
+ --> (n-k)!=n!/(n-k+1)x(n-k+2)x...xn
+
+-->Two Factorials
+If we have two natural numbers n and k, then
+if n>k
+n!/k!=(k+1)x(k+2)x...xn
+example - n =7, k=4
+7!/4!=1x2x3x4x5x6x7/1x2x3x4=5x6x7
+
+2.VARIATIONS- The total number of ways we can pick and arrange some elements of a given set
+
+-->Notation and Formula=
+<span style="text-decoration: overline;">V</span><sub>p</sub><sup>n</sup>=n<sup>p</sup>
+where, n= the total number of elements we have available.
+       p=the number of positions we need to fill.
+
+It is described as ,the number of variations with repetition when picking p-many elements out of n elements,is equal to n to the power of p.
+
+*Why we use variations instead of permutations?
+we use variations when we have to first pick and then arrange some (but not all) elements  of the sample space.
+
+#Variations without repetition-
+In this we can not repeat the element that we have already chosen.
+That's what makes it different from variations with repitition.
+
+#NOTATION AND FORMULA-
+
+V<sup>n</sup><sub>p</sub>=n!/(n-p)!
+The number of variations without repetition when arranging p elements out of a total of n.
+
+example= p=4,n=5
+5!/(5-4)!
  
 . 
 
