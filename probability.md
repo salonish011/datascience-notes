@@ -136,8 +136,20 @@ The number of variations without repetition when arranging p elements out of a t
 
 example= p=4,n=5
 5!/(5-4)!
- 
-. 
+
+3.COMBINATIONS- The number of different ways we can pick certain elements of a set.
+
+ FORMULA-
+ The number of combinations for choosing p-many elements out of a smaple space of n elements.
+ So, the number of combinations equals the numbers of variations over the number of permutations.
+  i.e C<sup>n</sup><sub>p</sub>=V<sup>n</sup><sub>p</sub>/P<sub>p</sub>
+
+  we get the formula = C<sup>n</sup><sub>p</sub>=n!/p!(n-p)!
+  #SYMMETRY OF COMBINATIONS-
+  Unlike permutations and variations ,picking more elements can lead to having fewer combiantions.
+  when p>n/2>n-p
+  Apply symmetry to avoid calculating factorials of large numbers.
+. We use symmetry to simplify the calculations.
 
 
 
