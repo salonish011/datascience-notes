@@ -151,6 +151,9 @@ example= p=4,n=5
   Apply symmetry to avoid calculating factorials of large numbers.
 . We use symmetry to simplify the calculations.
 
+NEW TYPE OF COMBINATION- A combination can be a mixture of different smaller individual events.
+ Calulating the total number of combinations is by multiplying the number of options available for each individual event.
+
 
 
 
