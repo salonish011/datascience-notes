@@ -154,8 +154,8 @@ example= p=4,n=5
 NEW TYPE OF COMBINATION- A combination can be a mixture of different smaller individual events.
  Calulating the total number of combinations is by multiplying the number of options available for each individual event.
 
-
-
+#DISTINCTIONS-
+PERMUTATIONS- You always arrange the entire set of elements in the sample space..It is differ from variations in this way.
 
 
 
