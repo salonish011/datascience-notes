@@ -129,6 +129,7 @@ we use variations when we have to first pick and then arrange some (but not all)
 In this we can not repeat the element that we have already chosen.
 That's what makes it different from variations with repitition.
 
+
 #NOTATION AND FORMULA-
 
 V<sup>n</sup><sub>p</sub>=n!/(n-p)!
@@ -157,12 +158,26 @@ NEW TYPE OF COMBINATION- A combination can be a mixture of different smaller ind
 #DISTINCTIONS-
 PERMUTATIONS- You always arrange the entire set of elements in the sample space..It is differ from variations in this way.
 
+#SETS-
+--> Every event have a set outcome(favourable outcomes)
+--> Values of a set don't always have to be numerical.
+--> Upper case letter is to express a set and lower case for its individual elements.
 
+--> Any set can be either empty or have values in it .
+A set with no elements is called an empty set or null set.It is denoted by a crossed zero (phi).
 
+NON-EMPTY SETS-
+They can be finite or infinite, depending on the no. of elements they have 
+--> If we want to express if an element is a part of a set or not we use  
+         xEA,here E means "belongs to" or "in"
 
+--> If an element is not a part of a set then we just diagonally cross the E .       
 
+Some symbols used in this -
+: = such that , It is used when we want to make statements about a specific group of elements within a set.
 
+#SUBSET-
+A set that is fully contained in another set.
+Eg- Every element of A is also an element of B , then  A is a subset of B.
 
-
-
-
+NOTE- Every set contains atleast two subsets , itself and the null set.
