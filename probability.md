@@ -181,3 +181,9 @@ A set that is fully contained in another set.
 Eg- Every element of A is also an element of B , then  A is a subset of B.
 
 NOTE- Every set contains atleast two subsets , itself and the null set.
+-->Events can be expressed by drawing circles. These circles can never touch,intersect or completely overlap with each other.
+-->If two events never touch then two events can never happen simultaneously.Event A occuring guarantees that event B is not occuring and vice versa.
+--> If the events intersect then means that the two events can occur at the same time.
+-->If one circle completely overlaps with another,that means that one event can only occur if the other one does as well.
+
+#INTERSECTIONS-Two events are  intersecting if all the outcomes that are favourable for both event A and event B simultaneoysly. 
