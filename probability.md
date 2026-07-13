@@ -187,3 +187,27 @@ NOTE- Every set contains atleast two subsets , itself and the null set.
 -->If one circle completely overlaps with another,that means that one event can only occur if the other one does as well.
 
 #INTERSECTIONS-Two events are  intersecting if all the outcomes that are favourable for both event A and event B simultaneoysly. 
+It is denoted by using "and".
+Eg- The intersection of all hearts and all diamonds is the empty set.There are no outcomes which satisfy both events simultaneously.
+
+Eg- The intersection of all diamonds and all queens is represented by the Queen of diamonds. This card is the only one that satisfies being a queen and being a diamond at the same time.
+
+#UNION- It is defined as the combination of all outcomes preferred for either A or B.
+--> The symbol we use for union is "U" , for intersection this "U" is flipped upside down."or" is used to represent this.
+
+Eg- If the sets A and B do not touch at all,their union would simply be their sum.It means no element is in both sets simultaneously ,so no double counting.
+ --> If any events intersect , the area of the union is represented by the sum of the two sets minus their intersection.
+
+ A U B = A+B-A ∩ B
+
+ # MUTUALLY EXCLUSIVE SETS-Sets,which are not allowed to have any overlapping elements.Their circles never intersect.
+ -->INTERSECTION- Mutually exclusive sets have the empty set as their intersection.Therefore, if the intersection of any number of sets is the empty set, then they must be mutually exclusive.
+
+ -->UNION- If some sets are mutually exclusive, then their union is simply the sum of all separate individual sets.
+
+ COMPLIMENTS OF SETS-Sets have compliments too.
+ Complement set- All values that are part of the sample space, but not part of the set.
+ Eg- A set consisting all the odd numbers , its complement would be set of even no's.
+
+ -->Complements are always mutually exclusive.
+ --.Not all mutually exclusive sets are complements.
