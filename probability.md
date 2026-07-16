@@ -210,4 +210,13 @@ Eg- If the sets A and B do not touch at all,their union would simply be their su
  Eg- A set consisting all the odd numbers , its complement would be set of even no's.
 
  -->Complements are always mutually exclusive.
- --.Not all mutually exclusive sets are complements.
+ -->Not all mutually exclusive sets are complements.
+
+# INDEPENDENT EVENTS- The Independent events are those whose theoretical probability remains unaffected by other events.
+Eg- Flipping a coin, you always have the chance of getiing tails regardless of what the previous outcome was.
+
+#DEPENDENT EVENTS-Probabilities of dependent events vary as conditions change.
+
+# NOTATIONS- Two events A and B- The probability of getting A, if we are given that B has occured 
+         P(A|B) ,called as P of A given B .
+This is called conditional probability, we use it to distinguish dependent from independent events. 
