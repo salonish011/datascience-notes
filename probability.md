@@ -220,3 +220,29 @@ Eg- Flipping a coin, you always have the chance of getiing tails regardless of w
 # NOTATIONS- Two events A and B- The probability of getting A, if we are given that B has occured 
          P(A|B) ,called as P of A given B .
 This is called conditional probability, we use it to distinguish dependent from independent events. 
+
+# CONDITIONAL PROBABILITY- It is the likelihood of an event occuring assuming a differnet have already happened.
+
+NOTATION - P(A|B)= P(AUB)/P(B) , only if P(B)>0.
+Because if P(B)=0 , Event b would never occur
+A|B= Not interpretable
+
+About the formula-T o satisfy the conditional probability we need both events B and A to occur simultaneously.This means that the intersection of A and B would consist of all favourable outcomes for this probability.
+The conditional probability requires that event B occurs.
+
+# IMPORTANCE-
+-->The order in which we write the elements is crucial
+
+# ADDITIVE LAW-The probability of the union of two sets is equal to the sum of the individual probabilities of each event ,minus the probability of their intersection.
+      
+      P(AUB)=P(A)+P(B)-P(A and B)
+Eg- suppose 38% of people in a office use Tableau and 45% in SQL.
+P(T)=38%
+P(S)=45%
+66% of the people in the office are good with one of the two , P(T U S)=66%. What is the probability of somebody being able to implement sql and tableau simultaneously?
+Ans- To solve this we can rearrange the additive law to get the intersection of tableau and sql users equal the sum of them and minus their union.
+P(T AND S)=P(T)+P(S)-P(T U S)
+           =38%+45%-66%
+           =17%
+           =0.17%
+A likelihood of 0.17% for somebody in the office to be able to proficiently implement SQL and Tableau.
