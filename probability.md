@@ -223,7 +223,7 @@ This is called conditional probability, we use it to distinguish dependent from 
 
 # CONDITIONAL PROBABILITY- It is the likelihood of an event occuring assuming a differnet have already happened.
 
-NOTATION - P(A|B)= P(AUB)/P(B) , only if P(B)>0.
+NOTATION - P(A|B)= P(A AND B)/P(B) , only if P(B)>0.
 Because if P(B)=0 , Event b would never occur
 A|B= Not interpretable
 
@@ -246,3 +246,20 @@ P(T AND S)=P(T)+P(S)-P(T U S)
            =17%
            =0.17%
 A likelihood of 0.17% for somebody in the office to be able to proficiently implement SQL and Tableau.
+
+# MULTIPLICATION LAW- From the cnditional probability formula we can modify it into multiplication law -
+       P(A|B).P(B)=P(A and B)
+
+Eg- Suppose the probability of an event  B P(B)=0.5  and P(A|B)=0.8 . This means that event B occurs 50% of the time and event A occurs 80% of those 50% when B occured .
+So the likelihood of A and B occuring at the same time P(A and B)=0.8 X 0.5= 0.4 
+
+# BAYE'S LAW- Suppose any two events A and B
+     P(A|B)=P(B|A)X P(A)/P(B) - Conditional prbability formula 
+     P(A AND B)=P(B|A)X P(A) - multiplication ruke 
+
+This is called Baye's Theorem.
+--> It allows us to find a relationship between the different conditional probabilities  of two events.
+
+Eg- It is most prominently used in meidcal research while trying to find the relationship between diff symptoms , what causeds the other.
+     
+# Baye's Rule in independent events-Take two events sun and code error .After solving it is seen that the chances of your algo performing as intended neither increase , nor decrease based on the weather.
