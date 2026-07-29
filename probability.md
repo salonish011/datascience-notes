@@ -263,3 +263,11 @@ This is called Baye's Theorem.
 Eg- It is most prominently used in meidcal research while trying to find the relationship between diff symptoms , what causeds the other.
      
 # Baye's Rule in independent events-Take two events sun and code error .After solving it is seen that the chances of your algo performing as intended neither increase , nor decrease based on the weather.
+
+# DISTRIBUTION- The possible values a variable can take and how frequently they occur.
+Probability frequency distribution- Probabilities measure the likelihood of an outcome.
+--> Used when we have finite number of probabilities.
+
+Characterstics of distribution- Mean = average value.(μ)
+Variance= How spread out the data is.The more dispersed the data the higher its variance will be .(σ²)
+
