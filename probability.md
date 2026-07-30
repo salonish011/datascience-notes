@@ -271,3 +271,6 @@ Probability frequency distribution- Probabilities measure the likelihood of an o
 Characterstics of distribution- Mean = average value.(μ)
 Variance= How spread out the data is.The more dispersed the data the higher its variance will be .(σ²)
 
+# TYPES OF PROBABILITY DISTRIBUTIONS-
+If we have finite no. of outcomes then its Discrete Distribution.
+If we have infinitely many outcomes then its Continuous Distributions.
