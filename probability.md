@@ -274,3 +274,37 @@ Variance= How spread out the data is.The more dispersed the data the higher its 
 # TYPES OF PROBABILITY DISTRIBUTIONS-
 If we have finite no. of outcomes then its Discrete Distribution.
 If we have infinitely many outcomes then its Continuous Distributions.
+DISCRETE DISTRIBUTIONS-
+1. Events with only two outcomes true and false , they belong to bernoulli distribution.Any event with two outcomes can be transformed into a bernoulli event.
+
+2.If  we carry out a similar experiment several times in a row then it is Binomial Distribution.It has two outcomes per iteration and has many iterations.
+
+3.The poisson distribution we use it to test out how unusal an event frquency is for a given interval.
+
+CONTINUOUS DISTRIBUTIONS-The probability distribution would be a curve.
+
+1.Normal distrn- these are often observed in nature.
+eg- it is observed that the weight of a polar bear is around 500kg. However ther is been records of individual spcecies weighing between 350kg to 700kg .Extreme values like 350 and 700 are called outliers, and do not feature very normally in the normal distribution.
+
+soemtimes we have limited data for event that resemble a normal distributon,in those cases we observe STUDENT'S T DISTRIBUTION.
+It serves as a small approximation of a normal distribution.It acoomodates extreme values signifcantly better.
+CHI SQUARED DISTRIBUTION-It is the first asymmetric distribution that we are dealing with as it only consists of non negative values.
+it means that it always start form the zero on the left.The curve of this is skewed to the right.
+It does not offer mirror real life events.
+often used in hypothesis testing. To determine the goodness of fit.
+EXPONENTIAL DISTRIBUTION-it is present when we are dealing with the events that are rapidly changing early on.
+eg- like the article on the internet gets most clicks when the topic is fresh and relevant but with the time passes it gets old and starts to get irrelevant.
+
+LOGISTIC DISTRIBUTION-used in forecast analysis.and also useful for determinng a cut off point for a successful outcome.
+
+UNIFORM DISTRIBUTION-U(a,b) eg- X-->U(3,7) means variable X folloes a discrete unifrom distribution ranging form 3 to 7.
+-->the events that all have equal probability follows it.many everyday situations uses it. 
+-->Expected value in it provides us no relevant info.
+so main thing is that when an event follows uniform ditribution each outcome is equally likely, Both the mean and the variance are uninterpretable and have no predictive power.
+
+
+BERNOULLI DISTRIBUTION-Bern(p) eg- X--> bern(p) means that X follows a bernoulli distribution with the probability of success equal to p.
+The type of events that follows it are = where we have 1 trial , 2 possible outcomes. eg- a coin flip.
+Graph- it has two bars one would rise up to its probability p and other would be 1-p.we have to assign which outcome is xero and which is 1 . then we calculate the expexted value.
+Usually we denote the higher probability with p and lower one with 1-p.and assigns p -->1 and 1-p -->0.That way the expected value represents the likelihood of the favoured event.
+if we write p and 1-p into the variance formula we would find that the variance of bernoulli event would be p(1-p).
