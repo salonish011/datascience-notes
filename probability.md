@@ -308,3 +308,11 @@ The type of events that follows it are = where we have 1 trial , 2 possible outc
 Graph- it has two bars one would rise up to its probability p and other would be 1-p.we have to assign which outcome is xero and which is 1 . then we calculate the expexted value.
 Usually we denote the higher probability with p and lower one with 1-p.and assigns p -->1 and 1-p -->0.That way the expected value represents the likelihood of the favoured event.
 if we write p and 1-p into the variance formula we would find that the variance of bernoulli event would be p(1-p).
+
+The variance -σ²=p(1-p)
+σ=square root p(1-p)
+
+BINOMIAL DISTRIBUTION- A sqquence of bernoulli events.
+Notation- B(n,p) where n is the of trials,p is the probability of success in each one. 
+eg- guessing an entire quiz is binomial event and guessing only 1 question is bernoulli event.
+Graph- of this describes the likelihood of attaining our desired outcome for a specific no. of times.
