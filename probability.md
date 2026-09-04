@@ -303,7 +303,8 @@ UNIFORM DISTRIBUTION-U(a,b) eg- X-->U(3,7) means variable X folloes a discrete u
 so main thing is that when an event follows uniform ditribution each outcome is equally likely, Both the mean and the variance are uninterpretable and have no predictive power.
 
 
-BERNOULLI DISTRIBUTION-Bern(p) eg- X--> bern(p) means that X follows a bernoulli distribution with the probability of success equal to p.
+BERNOULLI DISTRIBUTION-
+Bern(p) eg- X--> bern(p) means that X follows a bernoulli distribution with the probability of success equal to p.
 The type of events that follows it are = where we have 1 trial , 2 possible outcomes. eg- a coin flip.
 Graph- it has two bars one would rise up to its probability p and other would be 1-p.we have to assign which outcome is xero and which is 1 . then we calculate the expexted value.
 Usually we denote the higher probability with p and lower one with 1-p.and assigns p -->1 and 1-p -->0.That way the expected value represents the likelihood of the favoured event.
@@ -312,7 +313,43 @@ if we write p and 1-p into the variance formula we would find that the variance 
 The variance -σ²=p(1-p)
 σ=square root p(1-p)
 
-BINOMIAL DISTRIBUTION- A sqquence of bernoulli events.
+BINOMIAL DISTRIBUTION-
+ A sqquence of bernoulli events.
 Notation- B(n,p) where n is the of trials,p is the probability of success in each one. 
 eg- guessing an entire quiz is binomial event and guessing only 1 question is bernoulli event.
 Graph- of this describes the likelihood of attaining our desired outcome for a specific no. of times.
+
+POISSON DISTRIBUTION- 
+denotes with Po( λ) , it deals with the frequency with which an event occurs wihtin a specific interval.
+graph shows the no. of occurrences and it always starts from zero, as no event can happen a negative amount of time.
+Formula- P(Y)= λ<sup>y</sup> e<sup>- λ</sup> / y!
+e - Euler's number(Napier's constant) , approx value =2.72
+ 
+ So, these are  all the discrete distributions.
+
+
+ # CONTINUOUS DISTRIBUTIONS-  Some events have infinitely many consecutive outcomes , those are called continuous distributions.
+ --> They vastly differ form the discrete distributions .
+ -->Their sample space is ifinite .
+ --> We cannot record the frequency of each distinct value.
+ --> We cannot represent them in table , we use graph  instead.
+
+The graph of this = called PDF, denoted by f(y), where y is an element of the sample space .
+    f(y)>=0
+
+in graph there are more elements in the sample space so there are more bars.This forms a curve and which is called probability distribution curve (PDC).
+
+In here the denominator will be infinite if we try to solve it using the favoured formula, so we assume those probabilitis to be insignificant and the likelihood of their occurring to be essentially zero.
+This the prob of an individual value form an continuous distrn to be equal to zero.
+We used probability distrn function(PDF) FOR DEPICTION THE DISCRETE FUNCTION GRAPHS .
+
+COMMULATIVE DISTRIBUTION FUNCTION-This function encompasses everything upto a certain value .
+denoted by - F(y), any continuous random variable y.
+it reprsents the probability of a random variable lower than or equal to a specific value .
+         F(y)=P(Y<=y>)
+
+Discrete also have CDF but it is not used that frequently, we can add up the pdf values.
+
+CDF is useful when we want to estimate the probability of some interval .
+
+i NORMAL DISTRIBUTION-N(μ,σ²) 
